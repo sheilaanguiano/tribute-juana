@@ -1,0 +1,94 @@
+/******************************
+GENERAL
+
+Fonts: I'm using 1600 inspired fonts
+as well as colors based on a Caravaggio color palette
+Cafe # a08070
+******************************/
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+
+}
+
+main {
+  margin: auto;
+
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: #a08070;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 2.5rem;
+
+  color: white;
+  margin-bottom: -10px;
+}
+
+h2 {
+  visibility: hidden;
+}
+
+
+h3 {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 1.618rem;
+  color: #7C0A02;
+}
+
+#img-div {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.hero-img {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ #tribute-info {
+   background-color:#F0D0A0;
+   padding: 5%;
+ }
+
+ #tribute-info li {
+   list-style: none;
+   padding: 10px 0px;
+ }
+
+ footer p {
+   text-align: center;
+ }
+
+ /******************************
+    MEDIA QUERIE
+ ******************************/
+@media only screen and (min-width: 768px) {
+
+  main {
+    max-width: 80%;
+  }
+
+  h2 {
+    visibility: visible;
+  }
+
+}
